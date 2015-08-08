@@ -158,6 +158,7 @@ noremap <f7> :mkdir<space>
 noremap <f8> :delete<cr>
 noremap <f9> :!!
 noremap <f10> :q<cr>
+noremap <C-O> :!!echo -n ""<cr>
 
 " Single stroke :
 noremap ; :
