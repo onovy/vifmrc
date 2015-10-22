@@ -154,7 +154,7 @@ noremap <f3> :!open %f || less %f<cr>
 noremap <f4> :!vim %f<cr>
 noremap <f5> :copy<cr>
 noremap <f6> :move<cr>
-noremap <f7> :mkdir<space>
+noremap <f7> :mkdir ""<left>
 noremap <f8> :delete<cr>
 noremap <f9> :!!
 noremap <f10> :q<cr>
