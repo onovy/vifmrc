@@ -108,7 +108,7 @@ filetype *.tar,*.tar.bz2,*.tbz2,*.tgz,*.tar.gz tar -xf %f
 filetype *.bz2 bunzip2 %f
 filetype *.gz gunzip %f
 filetype *.zip unzip %f
-fileviewer *.zip,*.jar,*.war,*.ear zip -sf %c
+fileviewer *.zip,*.jar,*.war,*.ear,*.apk zip -sf %c
 fileviewer *.tar,*.tar.bz2,*.tbz2,*.tgz,*.tar.gz tar -tf %f
 
 " Open binary files in Mac Open app, which runs default action
